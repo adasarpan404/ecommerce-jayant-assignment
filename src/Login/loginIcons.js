@@ -1,9 +1,11 @@
 import { useCallback, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 import "./loginIcon.css";
 
 const FrameComponent = () => {
   const [number, setNumber] = useState("");
-
+  const navigate = useNavigate();
   const handleChange = (e) => {
     setNumber(e.target.value)
   };
@@ -25,7 +27,7 @@ const FrameComponent = () => {
 
     fetch("http://localhost:4000/auth/signup", requestOptions)
       .then((response) => response.text())
-      .then((result) => console.log(result))
+      .then(navigate("/verify-otp", { state: { key: number } }))
       .catch((error) => console.error(error));
   };
 
