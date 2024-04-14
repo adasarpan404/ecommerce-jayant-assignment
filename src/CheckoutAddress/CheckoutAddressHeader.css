@@ -1,0 +1,89 @@
+.time {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 22px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 31px;
+  }
+  .camera-cutout-icon {
+    height: 26px;
+    width: 26px;
+    position: relative;
+    display: none;
+  }
+  .right-icons {
+    height: 18.4px;
+    width: 49.8px;
+    position: relative;
+  }
+  .devicedevice-frame-components {
+    align-self: stretch;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-4xs-7) var(--padding-mid) var(--padding-4xs-6)
+      var(--padding-mid-3);
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base-2);
+    color: var(--color-darkslategray);
+    font-family: var(--font-roboto);
+  }
+  .frame-child {
+    height: 52.7px;
+    width: 389.7px;
+    position: relative;
+    background-color: var(--color-white);
+    display: none;
+    max-width: 100%;
+  }
+  .arrow-left-icon {
+    height: 26.3px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 26px;
+    z-index: 1;
+  }
+  .checkout {
+    position: relative;
+    line-height: 26px;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 86px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .devicedevice-frame-components-parent,
+  .rectangle-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .rectangle-parent {
+    flex-direction: row;
+    padding: var(--padding-smi) var(--padding-3xs) var(--padding-smi-9);
+    box-sizing: border-box;
+    gap: var(--gap-mini);
+    cursor: pointer;
+    z-index: 1;
+    margin-top: -0.3px;
+  }
+  .devicedevice-frame-components-parent {
+    flex-direction: column;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    text-align: left;
+    font-size: var(--font-size-mid-3);
+    color: var(--color-gray-100);
+    font-family: var(--font-poppins);
+  }
+  

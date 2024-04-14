@@ -1,0 +1,227 @@
+.frame-child {
+  height: 55px;
+  width: 330px;
+  position: relative;
+  border-radius: 10.67px;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+
+.div {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 31px;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) 0 0;
+}
+
+.frame-item {
+  align-self: stretch;
+  width: 0.4px;
+  position: relative;
+  max-height: 100%;
+  min-height: 26px;
+  z-index: 1;
+}
+
+.frame-inner,
+.rectangle-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.frame-inner {
+  width: 178px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 23.5px;
+  flex-direction: column;
+  padding: var(--padding-10xs-5) 0 0;
+  font-family: var(--font-mulish);
+  font-weight: 500;
+  font-size: var(--font-size-mid-1);
+  color: var(--color-gray-200);
+}
+
+.rectangle-parent {
+  align-self: stretch;
+  border-radius: 10.67px;
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-mini-5) var(--padding-3xs);
+  gap: var(--gap-3xs-8);
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.youll-receive-4-digit {
+  position: relative;
+  font-weight: 800;
+}
+
+.or {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 var(--padding-6xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+
+.frame-group,
+.vector-icon {
+  align-self: stretch;
+  max-width: 100%;
+}
+
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-mid-1);
+  color: var(--color-gray-100);
+}
+
+.vector-icon {
+  height: 1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.or1 {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  /* margin-left: 10%; */
+  /* min-width: 17px; */
+}
+
+.frame-child1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.frame-container,
+.frame-wrapper,
+.vector-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.vector-container {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  min-width: 88px;
+}
+
+.frame-container,
+.frame-wrapper {
+  flex-direction: row;
+}
+
+.frame-container {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: var(--gap-mini);
+}
+
+.frame-wrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-7xs) var(--padding-3xs) var(--padding-8xs);
+}
+
+.login-with-social {
+  align-self: stretch;
+  position: relative;
+  font-weight: 800;
+}
+
+.group-icon,
+.group-icon1 {
+  font-size: 20px;
+  border: 5px solid white;
+  padding: 3px;
+  border-radius: 100px;
+  width: 25px;
+  font-weight: bold;
+}
+
+.group-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+
+.button,
+.button-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.button-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-4xl) 0 var(--padding-3xl);
+}
+
+.button {
+  width: 163px;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+
+.button-wrapper,
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+
+.button-wrapper {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+
+.frame-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-mulish);
+}

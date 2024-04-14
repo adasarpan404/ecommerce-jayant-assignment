@@ -1,0 +1,192 @@
+.path0-icon {
+    height: 24px;
+    width: 38px;
+    position: absolute;
+    margin: 0 !important;
+    top: -2px;
+    left: 41px;
+    z-index: 1;
+  }
+  .group-icon {
+    width: 20.8px;
+    height: 13.6px;
+    position: relative;
+  }
+  .group-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .hebevu-fresh {
+    position: relative;
+    display: inline-block;
+    min-width: 95px;
+  }
+  .frame-parent3,
+  .frame-wrapper1,
+  .path0-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .frame-parent3 {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .frame-wrapper1,
+  .path0-parent {
+    justify-content: flex-start;
+  }
+  .path0-parent {
+    flex: 1;
+    position: relative;
+  }
+  .frame-wrapper1 {
+    align-self: stretch;
+    padding: 0 var(--padding-12xs);
+  }
+  .vector-icon {
+    height: 19px;
+    width: 16px;
+    position: relative;
+  }
+  .noida-sector-145 {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 123px;
+  }
+  .vector-icon1 {
+    width: 12px;
+    height: 7px;
+    position: relative;
+    object-fit: contain;
+  }
+  .vector-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .noida-sector-145-parent {
+    flex-direction: row;
+    gap: var(--gap-xl);
+  }
+  .frame-parent2,
+  .noida-sector-145-parent,
+  .vector-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .vector-parent {
+    flex-direction: row;
+    gap: var(--gap-3xs);
+    color: var(--color-black);
+  }
+  .frame-parent2 {
+    width: 181px;
+    flex-direction: column;
+    gap: var(--gap-lgi);
+  }
+  .frame-item,
+  .vector-icon2,
+  .vector-icon3 {
+    height: 15.8px;
+    width: 15.8px;
+    position: relative;
+    min-height: 16px;
+  }
+  .frame-item,
+  .vector-icon3 {
+    width: 12.6px;
+  }
+  .vector-icon3 {
+    width: 16.7px;
+    cursor: pointer;
+  }
+  .vector-group {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .frame-parent1,
+  .frame-wrapper2,
+  .vector-group {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-wrapper2 {
+    width: 87.7px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+    box-sizing: border-box;
+  }
+  .frame-parent1 {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .component-52-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .frame-div {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-14xl);
+  }
+  .shop-by-categories {
+    flex: 1;
+    position: relative;
+    line-height: 22.22px;
+    font-weight: 500;
+  }
+  .shop-by-categories-wrapper {
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    color: var(--color-gray);
+  }
+  .frame-group,
+  .iphone-14-122-child {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-group {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .iphone-14-122-child {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-xl) var(--padding-lg-3) var(--padding-lgi);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-darkgreen);
+    font-family: var(--font-poppins);
+  }

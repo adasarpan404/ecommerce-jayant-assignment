@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,900;1,300;1,400;1,500;1,900&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-mulish: Mulish;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-smi: 13px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --color-darkgreen: #10762c;
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-3xs: 10px;
+  --gap-11xl: 30px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-12xs: 1px;
+  --padding-3xs: 10px;
+  --padding-26xl: 45px;
+  --padding-51xl: 70px;
+
+  /* Border radiuses */
+  --br-7xs: 6px;
+  --br-6xl: 25px;
+}

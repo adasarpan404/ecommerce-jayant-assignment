@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-poppins: Poppins;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-mini-9: 14.9px;
+  --font-size-smi: 13px;
+  --font-size-xs-7: 11.7px;
+  --font-size-xs-2: 11.2px;
+  --font-size-mid-3: 17.3px;
+  --font-size-base-2: 15.2px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkgreen: #10762c;
+  --color-gray-100: #242424;
+  --color-gray-200: #1c1f26;
+  --color-darkslategray: #373e44;
+
+  /* Gaps */
+  --gap-base-6: 15.6px;
+  --gap-lg-2: 18.2px;
+  --gap-4xs-1: 8.1px;
+  --gap-sm-1: 13.1px;
+  --gap-xl: 20px;
+  --gap-smi-9: 12.9px;
+  --gap-11xl-9: 30.9px;
+  --gap-xs-7: 11.7px;
+  --gap-mini: 15px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-6xl: 25px;
+  --padding-128xl-7: 147.7px;
+  --padding-10xs-8: 2.8px;
+  --padding-xs-6: 11.6px;
+  --padding-6xl-2: 25.2px;
+  --padding-7xs-6: 5.6px;
+  --padding-mini-5: 14.5px;
+  --padding-2xs-7: 10.7px;
+  --padding-smi: 13px;
+  --padding-3xs: 10px;
+  --padding-smi-9: 12.9px;
+  --padding-4xs-7: 8.7px;
+  --padding-mid-3: 17.3px;
+  --padding-4xs-6: 8.6px;
+}

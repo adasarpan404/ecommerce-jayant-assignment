@@ -1,0 +1,99 @@
+group-input {
+    accent-color: #10762c;
+    margin: 0;
+    height: 19.4px;
+    width: 19.4px;
+    position: relative;
+    min-height: 19px;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .terms-conditions {
+    text-decoration: underline;
+    color: var(--color-darkgreen);
+  }
+  .i-agree-to-container {
+    position: relative;
+    line-height: 15.11px;
+    font-weight: 500;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .i-agree-to-the-terms-conditi-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-11xs);
+  }
+  .frame-container,
+  .frame-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .frame-div {
+    flex: 1;
+    align-items: flex-end;
+    gap: var(--gap-base-5);
+  }
+  .frame-container {
+    align-self: stretch;
+    align-items: flex-start;
+    padding: 0 var(--padding-21xl);
+  }
+  .frame-child4 {
+    height: 50px;
+    width: 300px;
+    position: relative;
+    border-radius: var(--br-56xl);
+    background-color: var(--color-darkgreen);
+    display: none;
+  }
+  .rectangle-parent2,
+  .register {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+  }
+  .register {
+    width: 82px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    font-weight: 900;
+    font-family: var(--font-mulish);
+    color: var(--color-white);
+    text-align: center;
+    align-items: center;
+    min-width: 82px;
+  }
+  .rectangle-parent2 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-smi) var(--padding-xl) var(--padding-xs);
+    background-color: var(--color-darkgreen);
+    align-self: stretch;
+    border-radius: var(--br-56xl);
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .frame-group,
+  .frame-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-group {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-11xl-6);
+  }
+  .frame-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-8xs);
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-gray);
+    font-family: var(--font-mulish);
+  }

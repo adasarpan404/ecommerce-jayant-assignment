@@ -1,0 +1,144 @@
+.delhi1,
+.state {
+  position: relative;
+  display: inline-block;
+}
+.state {
+  min-width: 34.9px;
+}
+.delhi1 {
+  width: 40.9px;
+}
+.field-icon3 {
+  align-self: stretch;
+  height: 0.9px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.country-india-fields,
+.state-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.country-india-fields {
+  align-self: stretch;
+  gap: var(--gap-7xs-1);
+  font-size: var(--font-size-mini-9);
+  color: var(--color-black);
+}
+.state-parent {
+  flex: 1;
+  gap: var(--gap-2xs-1);
+  min-width: 102px;
+}
+.country,
+.india {
+  position: relative;
+  display: inline-block;
+  min-width: 52.9px;
+}
+.india {
+  min-width: 37.9px;
+}
+.field-icon4 {
+  height: 0.9px;
+  width: 157.5px;
+  position: relative;
+}
+.field-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-9xs-8);
+}
+.india-parent {
+  flex-direction: column;
+  gap: var(--gap-7xs-1);
+  font-size: var(--font-size-mini-9);
+  color: var(--color-black);
+}
+.country-parent,
+.frame-parent2,
+.india-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.country-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs-1);
+  min-width: 105px;
+}
+.frame-parent2 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-8xl-9);
+}
+.radio-button-icon1 {
+  height: 22.4px;
+  width: 22.4px;
+  position: relative;
+}
+.delivery-at-your {
+  position: relative;
+}
+.delivery-at-your-doorsteps-wrapper,
+.radio-button-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.delivery-at-your-doorsteps-wrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs-8) 0 0;
+}
+.radio-button-parent {
+  flex-direction: row;
+  gap: var(--gap-smi);
+}
+.radio-button-icon2 {
+  height: 22.4px;
+  width: 22.4px;
+  position: relative;
+}
+.tack-away-from {
+  position: relative;
+}
+.tack-away-from-e-van-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-8) 0 0;
+}
+.frame-parent1,
+.frame-parent3,
+.radio-button-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frame-parent1,
+.frame-parent3 {
+  flex-direction: column;
+  gap: var(--gap-xl-4);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.frame-parent1 {
+  align-self: stretch;
+  gap: var(--gap-11xl-2);
+  text-align: left;
+  font-size: var(--font-size-sm-1);
+  color: var(--color-darkgreen);
+  font-family: var(--font-poppins);
+}

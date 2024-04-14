@@ -1,0 +1,134 @@
+.path0-icon {
+  width: 50px;
+  height: 35px;
+  position: relative;
+}
+
+.enter-your-mobile {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+}
+
+.enter-number {
+  width: 271px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+
+.by-clicking-i {
+  margin: 0;
+}
+
+.terms-of-services {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.by-clicking-i-container {
+  width: 162px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.checkbox {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-3xl) 0 var(--padding-xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+
+.enter-number-parent,
+.sign-up-1,
+.sign-up-1-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.enter-number-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 100%;
+}
+
+.sign-up-1,
+.sign-up-1-inner {
+  box-sizing: border-box;
+}
+
+.sign-up-1-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: 30px;
+  color: var(--color-white);
+  font-family: var(--font-mulish);
+}
+
+.sign-up-1 {
+  width: 100%;
+  position: relative;
+  background-color: #10762c;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-xl) 214px;
+  gap: 129px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;800;900&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-mulish: Mulish;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-mid-1: 17.1px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #1d1d1d;
+  --color-gray-200: rgba(29, 29, 29, 0.4);
+
+  /* Gaps */
+  --gap-11xl: 30px;
+  --gap-xl: 20px;
+  --gap-mini: 15px;
+  --gap-3xs-8: 9.8px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-3xs: 10px;
+  --padding-3xl: 22px;
+  --padding-2xl: 21px;
+  --padding-4xl: 23px;
+  --padding-7xs: 6px;
+  --padding-8xs: 5px;
+  --padding-4xs: 9px;
+  --padding-5xs: 8px;
+  --padding-6xs: 7px;
+  --padding-mini-5: 14.5px;
+}

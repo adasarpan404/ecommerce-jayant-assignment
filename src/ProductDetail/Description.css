@@ -1,0 +1,96 @@
+.star-icon {
+    width: 20.4px;
+    height: 20.2px;
+    position: relative;
+    object-fit: cover;
+  }
+  .star-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-8xs-4) 0 0;
+  }
+  .div,
+  .reviews {
+    position: relative;
+    display: inline-block;
+  }
+  .div {
+    font-weight: 500;
+    min-width: 33.1px;
+  }
+  .reviews {
+    height: 20.9px;
+    flex-shrink: 0;
+    min-width: 56.2px;
+  }
+  .frame-parent,
+  .price-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .price-container {
+    flex-direction: column;
+    padding: var(--padding-12xs) 0 0;
+    font-size: var(--font-size-sm);
+    color: var(--color-darkgreen);
+  }
+  .frame-parent {
+    flex-direction: row;
+    padding: 0 0 var(--padding-8xs-9);
+    gap: var(--gap-8xs-9);
+  }
+  .broccoli {
+    margin: 0;
+    width: 131.8px;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .broccoli,
+  .lorem-ipsum-is,
+  .typesetting-industry-lorem {
+    position: relative;
+  }
+  .industrys-standard-dummy {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .add-to-cart-label {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-12xs-4);
+    flex-shrink: 0;
+    font-size: var(--font-size-smi-9);
+    color: var(--color-gray-100);
+  }
+  .add-to-cart-label,
+  .currency-symbol,
+  .size-selector {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .size-selector {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .currency-symbol {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 var(--padding-xl) var(--padding-8xs);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-gray-200);
+    font-family: var(--font-poppins);
+  }

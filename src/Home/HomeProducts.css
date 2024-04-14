@@ -1,0 +1,120 @@
+.time {
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 22px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 31px;
+  }
+  .camera-cutout-icon {
+    height: 26px;
+    width: 26px;
+    position: relative;
+    display: none;
+  }
+  .right-icons {
+    height: 18.4px;
+    width: 49.8px;
+    position: relative;
+  }
+  .devicedevice-frame-components {
+    align-self: stretch;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8.7px 17px 8.6px 17.3px;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: 15.2px;
+    color: #373e44;
+    font-family: var(--font-roboto);
+  }
+  .frame-child,
+  .frame-container {
+    border-radius: 14.54px;
+    overflow: hidden;
+    mix-blend-mode: normal;
+  }
+  .frame-child {
+    height: 81px;
+    width: 81px;
+    position: relative;
+    flex-shrink: 0;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .frame-container {
+    flex: 1;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) var(--padding-2xs) 11.2px;
+  }
+  .frame-wrapper,
+  .milks-dairy {
+    flex-shrink: 0;
+  }
+  .frame-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .milks-dairy {
+    flex: 1;
+    position: relative;
+    font-weight: 500;
+  }
+  .milks-dairy-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 3.2px 0 4px;
+  }
+  .frame-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 11.1px;
+    cursor: pointer;
+  }
+  .iphone-14-122,
+  .iphone-14-122-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .iphone-14-122-inner {
+    width: 143.4px;
+    flex-direction: row;
+    padding: 0 var(--padding-xl);
+  }
+  .iphone-14-122 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: 0 0 1481.7px;
+    gap: 1.7px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 13px;
+    color: #444;
+    font-family: var(--font-poppins);
+  }

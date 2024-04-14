@@ -1,0 +1,120 @@
+path0-icon {
+    height: 31px;
+    width: 50px;
+    position: relative;
+  }
+  .path0-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl);
+  }
+  .create-your-profile,
+  .lets {
+    margin: 0;
+  }
+  .lets-create-your-container {
+    margin: 0;
+    height: 76px;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 900;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .lets-create-your-profile-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 30px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: 30px;
+    color: var(--color-white);
+    font-family: var(--font-mulish);
+  }
+  .frame-child,
+  .frame-item {
+    position: relative;
+    display: none;
+  }
+  .frame-child {
+    width: 390px;
+    height: 654px;
+    border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+    background-color: var(--color-white);
+    max-width: 100%;
+  }
+  .frame-item {
+    height: 50px;
+    width: 310px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-goldenrod);
+  }
+  .frame-inner {
+    height: 28px;
+    width: 44px;
+    position: relative;
+    z-index: 2;
+  }
+  .enter-referral-code {
+    position: relative;
+    font-size: var(--font-size-mini);
+    font-family: var(--font-mulish);
+    color: var(--color-darkgray);
+    text-align: left;
+    z-index: 1;
+  }
+  .register-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 4px;
+  }
+  .rectangle-group {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-2xs) var(--padding-xl);
+    background-color: var(--color-goldenrod);
+    align-self: stretch;
+    border-radius: var(--br-3xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    z-index: 1;
+  }
+  .rectangle-parent,
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .rectangle-parent {
+    align-self: stretch;
+    border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+    background-color: var(--color-white);
+    padding: var(--padding-21xl);
+    gap: 70px;
+    max-width: 100%;
+  }
+  .signup-form {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-darkgreen);
+    overflow: hidden;
+    padding: var(--padding-xl) 0 0;
+    gap: 31.5px;
+    line-height: normal;
+    letter-spacing: normal;
+  }

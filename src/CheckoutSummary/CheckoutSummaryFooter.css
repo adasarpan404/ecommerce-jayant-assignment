@@ -1,0 +1,188 @@
+.divider-icon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.checkbox-icon,
+.divider-icon,
+.shipping-address {
+  position: relative;
+}
+.checkbox-icon {
+  width: 22px;
+  height: 22px;
+}
+.checkbox-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-4) 0 0;
+}
+.checkbox-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.bay-brook-sharps,
+.melbourne-australia {
+  position: relative;
+}
+.delivery-input,
+.shipping-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.delivery-input {
+  gap: var(--gap-7xs-9);
+  font-size: var(--font-size-mini-7);
+}
+.shipping-label {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-sm-8);
+}
+.change {
+  position: relative;
+  display: inline-block;
+  min-width: 52px;
+}
+.divider-icon1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.change-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-8);
+  font-size: var(--font-size-smi-9);
+  color: var(--color-darkgreen);
+  font-family: var(--font-poppins);
+}
+.payment {
+  position: relative;
+  display: inline-block;
+  min-width: 79px;
+}
+.bg-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-mastercard {
+  height: 39.4px;
+  width: 55.1px;
+  position: relative;
+  z-index: 1;
+}
+.master-card,
+.payment-method-label {
+  position: relative;
+  display: inline-block;
+  min-width: 67px;
+  z-index: 1;
+}
+.payment-method-label {
+  font-size: var(--font-size-mini-7);
+  color: var(--color-black);
+  min-width: 109px;
+}
+.change-icon-button,
+.m-c-label,
+.payment-method {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.change-icon-button {
+  gap: var(--gap-10xs-6);
+}
+.m-c-label,
+.payment-method {
+  padding: var(--padding-11xs-9) 0 0;
+}
+.payment-method {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-9xs-6) 0 var(--padding-10xs-9);
+  position: relative;
+  gap: var(--gap-lg-4);
+}
+.change1 {
+  position: relative;
+  font-size: var(--font-size-smi-9);
+  font-family: var(--font-poppins);
+  color: var(--color-darkgreen);
+  display: inline-block;
+  min-width: 52px;
+  cursor: pointer;
+}
+.payment-method-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  min-width: 171px;
+}
+.checkbox-icon1 {
+  height: 22px;
+  width: 22px;
+  position: relative;
+}
+.payment-input,
+.payment-input-wrapper,
+.total-amount-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.total-amount-label {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-27xl-8);
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-100);
+}
+.payment-input,
+.payment-input-wrapper {
+  max-width: 100%;
+}
+.payment-input {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl-1);
+}
+.payment-input-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs) 0 var(--padding-4xs-3);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base-5);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
